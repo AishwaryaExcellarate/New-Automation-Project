@@ -12,7 +12,7 @@ import GeneralComponents.BaseClass;
 import ObjectRepositry.ExcelData;
 import ObjectRepositry.HomePage;
 import ObjectRepositry.LoginPage;
-
+                           //This test case converted into POM 
 public class rahulshettyacademyLoginpage  extends BaseClass
 {
 	@Test
