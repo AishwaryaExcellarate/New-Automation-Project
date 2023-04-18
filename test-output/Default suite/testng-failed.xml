@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2E.WindowHandling">
+      <class name="E2E.rahulshettyacademyLoginpage">
         <methods>
+          <include name="closebrowser"/>
+          <include name="setup"/>
           <include name="windowhandling"/>
+          <include name="getScreenshot"/>
+          <include name="rahulshettyacademyloginpage"/>
         </methods>
-      </class> <!-- E2E.WindowHandling -->
+      </class> <!-- E2E.rahulshettyacademyLoginpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
